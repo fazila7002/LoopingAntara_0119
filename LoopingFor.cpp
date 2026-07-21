@@ -9,5 +9,12 @@ int main() {
     }
     cout << endl;
 
+    cout << "PERULANGAN FOR TURUN " << endl;
+    for (int i= 5 ; i > 0 ; i-- ) 
+    {
+        cout << "Nilai i: " << i << " Trknologi Informasi UMY" << endl;
+    }
+    cout << endl;
     
+    return 0;
 }
