@@ -14,4 +14,8 @@ int main() {
         x =rand () %10;
     }while  (x <= 5);
 
+    cout << "Bilangan acak do- while yg terakhir" << x << endl;
+        
+        cout << endl ;
+        return 0;
 }
