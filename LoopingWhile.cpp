@@ -17,9 +17,9 @@ int main (){
         cout << "TI Bilangan acak" << x<< endl;
         x =rand() %10 ; //Pengubah dari nilai x alias pengacaknya
    
-
-
-    
-
-
+        cout << "Bilangan acak while yg terakhir" << x << endl;
+        
+        cout << endl ;
+        return 0;
+}
 }
