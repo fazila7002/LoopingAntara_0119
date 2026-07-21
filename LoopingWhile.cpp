@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//kalau  while ini tuh artinya 
+//syarat dulu baru pekerjaan, ibarat syarat di penuhi maka akan di kerjakan
 int main (){
     //input var x
     int x;
