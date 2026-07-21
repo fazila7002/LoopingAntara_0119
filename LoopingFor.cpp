@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    //ASCENDING
     cout << "PERULANGAN FOR " << endl;
     for (int i= 0 ; i < 5 ; i++ ) 
     {
@@ -9,6 +10,8 @@ int main() {
     }
     cout << endl;
 
+
+    //DESCENDING
     cout << "PERULANGAN FOR TURUN " << endl;
     for (int i= 5 ; i > 0 ; i-- ) 
     {
