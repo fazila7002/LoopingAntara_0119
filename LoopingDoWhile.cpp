@@ -11,7 +11,7 @@ int main() {
 
     do {
         cout << "TI Bilanga acak = " << x << endl;
-        x =rand () %10
-    }
+        x =rand () %10;
+    }while  (x <= 5);
 
 }
