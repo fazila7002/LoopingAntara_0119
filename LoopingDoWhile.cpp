@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+//kalau do while ini tuh artinya 
+//pekerjaan dulu baru syarat, jadi ibarat dia sudah ngelakuin pekerjaan baru di cek syaratnya
+
 int main() {
 
     int x;
@@ -10,11 +13,11 @@ int main() {
     x=1 +rand() %10;
 
     do {
-        cout << "TI Bilanga acak = " << x << endl;
-        x =rand () %10;
+        cout << "TI Bilangan acak = " << x << endl;
+        x =rand () %10;//pengacak
     }while  (x <= 5);
 
-    cout << "Bilangan acak do- while yg terakhir" << x << endl;
+    cout << "Bilangan acak do- while yg terakhir =" << x << endl;
         
         cout << endl ;
         return 0;
