@@ -8,5 +8,10 @@ int main() {
 
     cout << "PERULANGAN DO... WHILE" << endl;
     x=1 +rand() %10;
-    
+
+    do {
+        cout << "TI Bilanga acak = " << x << endl;
+        x =rand () %10
+    }
+
 }
